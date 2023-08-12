@@ -1,18 +1,11 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+#### Exercícios Básicos 
+https://wiki.python.org.br/EstruturaSequencial 
+Exercícios para entregar: 16 e 17
+Se desejarem praticar mais, todos os demais exercícios são recomendados. 
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
----
-
-Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
-
-- [ ] Fiz o fork do repositório.
-- [ ] Clonei o fork na minha máquina (`git clone url-do-meu-fork`).
-- [ ] Resolvi o exercício.
-- [ ] Adicionei as mudanças. (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitei a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushei os commits na minha branch (`git push origin nome-da-branch`)
-- [ ] Criei um Pull Request seguindo as orientaçoes que estao nesse [documento](https://github.com/mflilian/repo-example/blob/main/exercicios/para-casa/instrucoes-pull-request.md).
+#### Exercícios de Funções
+https://wiki.python.org.br/ExerciciosFuncoes
+Exercício para entregar: 3
+Se desejarem praticar mais, pular os exercícios 1, 2, 7, 10, 13 e 14, pois exigem conhecimentos que veremos nas próximas aulas. Não é necessário fazer os loops pedidos nos demais exercícios. 
