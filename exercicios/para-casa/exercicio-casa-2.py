@@ -1,10 +1,18 @@
 area_total = float(input("Área a ser pintada em m²: "))
 
-litros = area_total/3
+a = (area_total/3)/18
 
-custo = litros * 80
-if litros <= 18:
-    custo = 80
-elif 
+latas = round(a + 0.5)
+
+def valor_a_pagar(area_total, a, latas):
+    custo = latas*80
+    return custo
+
+print("O número de latas necessário para pintar é:", latas)
+print("O valor a pagar é", valor_a_pagar(area_total, a, latas))
+
+    
+
+
 
 
