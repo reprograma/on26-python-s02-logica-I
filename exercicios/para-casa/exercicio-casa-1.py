@@ -1,4 +1,4 @@
-#Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+#Faça um programa com uma função que necessite de três argumentos e que forneça a soma desses três argumentos.
 
 def contas_do_mes(luz, internet, aluguel):
     soma_das_contas = luz + internet + aluguel
