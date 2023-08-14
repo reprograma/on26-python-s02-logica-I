@@ -36,8 +36,8 @@ preco_final_Lata = quant_latas*preco_lata
 #calculando mistura
 folga = int(quant_litros*10/100)
 quant_certa_soma = quant_litros + folga
-num_de_latas = quant_certa_soma//lata_litro
-num_de_galão = (quant_certa_soma%lata_litro)//3.6
+num_de_latas = round(quant_certa_soma//lata_litro)
+num_de_galão = round((quant_certa_soma%lata_litro)//3.6)
 preco_mistura = (num_de_latas*preco_lata)+(num_de_galão*preco_galao)
 
 #aplicando o conhecimento da oficina
