@@ -19,4 +19,4 @@ quant_latas = (math.ceil(quantia_litros / litro_lata))
 preco_tinta = quant_latas * 80.00
 
 #Finalmente, o print com o adicional do cálculo de coberturas pq estava me sentindo aventureira hihi
-print(f"O preço da tinta será R${preco_tinta} e você precisará de {quant_latas} latas. A cobertura será de {quantia_litros} litros")
+print(f"O preço da tinta será R${preco_tinta:.2f} e você precisará de {quant_latas} latas. A cobertura será de {quantia_litros} litros")
