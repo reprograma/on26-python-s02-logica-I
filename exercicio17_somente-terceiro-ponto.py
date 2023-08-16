@@ -1,7 +1,7 @@
 # Para importar a biblioteca math para poder arredondar 
 import math
 
-# O 'input' cria um prompt para o usuário colocar a área a ser pintada em metros quadrados e o 'int' converte para um valor inteiro.
+# O 'input' cria um prompt para o usuário colocar a área a ser pintada em metros quadrados 
 metro_quadrado_area_a_ser_pintada = float(input("Digite o metro quadrado da área a ser pintada: "))
 
 # Calculando o volume necessário, '1.1' significa 110% para garantir 10% de folga

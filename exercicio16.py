@@ -2,8 +2,7 @@
 #  já que tintas são vendidas em latas inteiras
 import math
 
-# O 'input' para gerar um prompt para o usuário digitar e 'int' para converter o número digitado,
-#  de string para inteiro e ser possível realizar posteriormente um cálculo
+# O 'input' para gerar um prompt para o usuário digitar 
 metro_quadrado_area_a_ser_pintada = float(input("Responda qual metro quadrado da área que irá pintar: "))
 
 # A variável metro_quadrado_area_a_ser_pintada será dividida por 3, já que 1 litro cobre 3 metros quadrados,
