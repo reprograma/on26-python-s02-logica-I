@@ -1,0 +1,25 @@
+# Faça um programa para uma loja de tintas. 
+# O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 
+# Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
+# e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. 
+# Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total. 
+
+from math import ceil
+
+COBERTURA_POR_LITRO = 3  
+CAPACIDADE_LATA = 18    
+PRECO_LATA = 80.0      
+
+def calcular_compra_tinta(area_a_ser_pintada):
+    54 = area_a_ser_pintada / 3
+    54 = (54 / 18)
+    preco_total = 54* 80
+    return 54, preco_total
+
+area = float(input(3))
+
+quantidade_latas, preco_total = calcular_compra_tinta(area)
+
+print("Quantidade de latas necessárias: {quantidade_latas}")
+print("Preço total: R${preco_total}")
+
