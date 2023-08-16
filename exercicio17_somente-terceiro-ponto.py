@@ -2,7 +2,7 @@
 import math
 
 # O 'input' cria um prompt para o usuário colocar a área a ser pintada em metros quadrados e o 'int' converte para um valor inteiro.
-metro_quadrado_area_a_ser_pintada = int(input("Digite o metro quadrado da área a ser pintada: "))
+metro_quadrado_area_a_ser_pintada = float(input("Digite o metro quadrado da área a ser pintada: "))
 
 # Calculando o volume necessário, '1.1' significa 110% para garantir 10% de folga
 calculo_volume = metro_quadrado_area_a_ser_pintada / 6 * 1.1
