@@ -1,12 +1,14 @@
 #Damaris Santos Teles Brito
+##Resolvido em grupo
 "Resolução exercício 16 python"
 "Casa de tintas"
 
-area = float(input("Digite a área do local (m²) ")) 
-litros = area / 3
-latas = int(litros / 18)
-if litros % 18 != 0:
-    latas += 1
+import math
 
-print("Voce deverá comprar", latas , "latas.")
-print("O valor total é: R$", latas * 80.0)
+area = float(input("Digite a área a ser pintada em m²: "))
+litros = area/3
+latas = math.ceil(litros/18)
+preco = latas * 80
+
+print(f"Você vai precisar de {latas} latas de tinta")
+print(f"O preço total é de R$ {preco:.2f}")
