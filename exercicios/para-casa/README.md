@@ -2,7 +2,7 @@
 
 #### Exercícios Básicos 
 https://wiki.python.org.br/EstruturaSequencial 
-Exercícios para entregar: 16 e 17
+Exercícios para entregar: 16 e 17 (somente o terceiro ponto)
 Se desejarem praticar mais, todos os demais exercícios são recomendados. 
 
 #### Exercícios de Funções
