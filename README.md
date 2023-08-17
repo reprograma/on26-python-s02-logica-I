@@ -29,3 +29,8 @@ Nessa plataforma, existem DIVERSOS exercícios que são avaliados automaticament
 
 #### Exercícios da aula
 Exercícios feitos em aula estão na pasta "exercicios-sala"
+
+# Material extra sobre funções 
+Vídeo do Professor Gustavo Guanabara sobre funções 
+https://www.youtube.com/watch?v=ezfr9d7wd_k
+Lembrete importante: nós ainda veremos mais conteúdo sobre funções na próxima aula. Então sem desespero se algo parecer muito novo, combinado? <3
