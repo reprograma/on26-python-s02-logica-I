@@ -198,3 +198,21 @@ if (cobertura_tinta - quantidade_latas_mistura * lata_de_tinta_litros) % galao_d
     quantidade_galoes_mistura += 1
 preco_mistura = (quantidade_latas_mistura * valor_da_lata_tinta_reais) + (quantidade_galoes_mistura * valor_galao_de_tinta_reais)
 print(f"Você irá comprar {quantidade_latas_mistura} latas de 18 litros e {quantidade_galoes_mistura} galões de 3,6 litros, e custará {preco_mistura:.2f} reais.")
+
+#############perte 2############
+Argumentos = valor dos parâmentros
+
+def calcula_media_poderada (nota1, nota2, peso1, peso2, peso3, nota2 = None, nota3 = None):
+    media = (nota1 * peso1 + nota2+peso2 + nota3*peso3)/(peso1+ peso2 + peso3)
+    return media
+
+x = 1
+y = 2
+z = 3
+peso1 = 4
+peso2 = 5
+peso3 = 6
+
+media = calcula_media_poderada(nota1 = x, nota2 = y, nota3 = z, peso1 = peso1, peso2 = peso2, peso3 = peso3)
+
+print(media)
