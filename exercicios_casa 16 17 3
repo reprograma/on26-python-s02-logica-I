@@ -1,0 +1,68 @@
+16. Faça um programa para uma loja de tintas. 
+O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 
+Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
+e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. 
+Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total. 
+
+COBERTURA_POR_LITRO = 3  
+CAPACIDADE_LATA = 18    
+PRECO_LATA = 80.0      
+
+def calcular_compra_tinta(area_a_ser_pintada):
+    54 = area_a_ser_pintada / 3
+    54 = (54 / 18)
+    preco_total = 54 * 80
+    return 54, preco_total
+
+area = float(input(3))
+
+quantidade_latas, preco_total = calcular_compra_tinta(area)
+
+print("Quantidade de latas necessárias: {quantidade_latas}")
+print("Preço total: R${preco_total}")
+
+
+17 
+
+Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
+misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
+
+COBERTURA_POR_LITRO = 6 
+CAPACIDADE_LATA = 18    
+PRECO_LATA = 80.0       
+CAPACIDADE_GALAO = 3.6  
+PRECO_GALAO = 25.0     
+FOLGA = 1.1             
+
+if calcular_compra_tinta(area_a_ser_pintada):
+    litros_necessarios = (area_a_ser_pintada * FOLGA) / COBERTURA_POR_LITRO
+    latas_necessarias = math.ceil(litros_necessarios / CAPACIDADE_LATA)
+    galoes_necessarios = math.ceil(litros_necessarios / CAPACIDADE_GALAO)
+     latas_necessarias, galoes_necessarios
+
+
+quantidade_latas, quantidade_galoes = calcular_compra_tinta(area)
+
+preco_total_latas = quantidade_latas * PRECO_LATA
+preco_total_galoes = quantidade_galoes * PRECO_GALAO
+
+print(quantidade_latas 18: {quantidade_latas}")
+print(quantidade_litros_necessarios 3.6 litros : {quantidade_galoes}")
+print(preco_total_latas: R$ 80.0 {preco_total_latas:.2f}")
+print(preco_total_galoes R${preco_total_galoes:.2f}")
+
+
+3. Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+
+def somar_tres_numeros(numero1, numero2, numero3):
+    soma = numero1 + numero2 + numero3
+    return soma
+
+num1 = float(input("1.5"))
+num2 = float(input("5.5 "))
+num3 = float(input("0.5"))
+
+resultado = somar_tres_numeros(numero1, numero2, numero3)
+print(f"somar_tres_numeros: {resultado}")
+
+
