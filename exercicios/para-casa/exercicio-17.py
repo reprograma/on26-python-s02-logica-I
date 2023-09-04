@@ -41,7 +41,7 @@ quantidade_galoes = math.ceil((litros_tinta / litros_por_galao))
 valor_total_latas = quantidade_latas * preco_lata
 valor_total_galoes = quantidade_galoes * preco_galao
 
-#print("Você poderá comprar " + str(quantidade_latas) +" latas de tinta pelo valor de " + str(valor_total_latas) + " reais.")
-#print("Ou " + str(quantidade_galoes) + " galões de tinta pelo valor de " + str(valor_total_galoes) + " reais.")
+print("Você poderá comprar " + str(quantidade_latas) +" latas de tinta pelo valor de " + str(valor_total_latas) + " reais.")
+print("Ou " + str(quantidade_galoes) + " galões de tinta pelo valor de " + str(valor_total_galoes) + " reais.")
 
 # misturar latas e galões (preciso voltar e rever essa parte)
