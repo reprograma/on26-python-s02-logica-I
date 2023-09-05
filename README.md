@@ -1,5 +1,3 @@
-# ementa-python-analise-dados
-
 ## S02 - Variáveis, tipos, operadores e funções
 
 ### Material base: https://docs.google.com/presentation/d/1gaRaYpn_xfyod34_UbEFhqzF54fllrwWVRLKBjhS9dg/
